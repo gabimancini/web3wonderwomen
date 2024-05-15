@@ -95,8 +95,9 @@ export const Header = () => {
             )}
           </div>
           <Link href="/" passHref className="hidden lg:flex items-center gap-2 ml-4 mr-6 shrink-0">
-            <div className="flex relative w-96 h-10">
-              <img alt="SE2 logo" className="cursor-pointer" src="/logo.svg" />
+            <div className="flex  items-center relative w-96 h-10">
+              <img alt="SE2 logo" className="cursor-pointer mr-2" src="/logo.svg" />
+              <span className="logo text-darkGreen">DeFiWise</span>
             </div>
           </Link>
         </div>

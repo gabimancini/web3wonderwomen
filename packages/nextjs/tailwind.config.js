@@ -80,13 +80,27 @@ module.exports = {
         center: "0 0 12px -2px rgb(0 0 0 / 0.05)",
         primary: "0 0 12px -2px rgba(126, 46, 132, 0.25)",
       },
+      backgroundImage: {
+        heroPattern: "url('../public/hero_bg.svg')",
+      },
       animation: {
         "pulse-fast": "pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite",
       },
       colors: {
-        active: "#D14081",
-        darkPurple: "#7E2E84",
-        lightPurple: "#BA64C0",
+        active: "#68CC58",
+        darkOrange: "#E97D1A",
+        lightOrange: "#F3B353",
+        ocre: "#988D3D",
+        darkGreen: "#1A3F37",
+        lightGreen: "#F6FFEE",
+      },
+      height: {
+        heroHeight: "675px",
+      },
+      fontSize: {
+        h1: "40px",
+        h2: "50px",
+        h3: "30px",
       },
     },
   },
