@@ -9,13 +9,13 @@ module.exports = {
     themes: [
       {
         light: {
-          primary: "#93BBFB",
+          primary: "#7E2E84",
           "primary-content": "#212638",
           secondary: "#DAE8FF",
           "secondary-content": "#212638",
           accent: "#93BBFB",
           "accent-content": "#212638",
-          neutral: "#212638",
+          neutral: "#4F4F4F",
           "neutral-content": "#ffffff",
           "base-100": "#ffffff",
           "base-200": "#f4f8ff",
@@ -47,7 +47,7 @@ module.exports = {
           "secondary-content": "#F9FBFF",
           accent: "#4969A6",
           "accent-content": "#F9FBFF",
-          neutral: "#F9FBFF",
+          neutral: "#4F4F4F",
           "neutral-content": "#385183",
           "base-100": "#385183",
           "base-200": "#2A3655",
@@ -57,7 +57,6 @@ module.exports = {
           success: "#34EEB6",
           warning: "#FFCF72",
           error: "#FF8863",
-
           "--rounded-btn": "9999rem",
 
           ".tooltip": {
@@ -66,6 +65,7 @@ module.exports = {
           },
           ".link": {
             textUnderlineOffset: "2px",
+            color: "#D14081",
           },
           ".link:hover": {
             opacity: "80%",
@@ -78,9 +78,15 @@ module.exports = {
     extend: {
       boxShadow: {
         center: "0 0 12px -2px rgb(0 0 0 / 0.05)",
+        primary: "0 0 12px -2px rgba(126, 46, 132, 0.25)",
       },
       animation: {
         "pulse-fast": "pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+      },
+      colors: {
+        active: "#D14081",
+        darkPurple: "#7E2E84",
+        lightPurple: "#BA64C0",
       },
     },
   },

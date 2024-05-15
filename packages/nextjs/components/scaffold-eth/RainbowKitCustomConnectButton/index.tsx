@@ -6,6 +6,7 @@ import { AddressInfoDropdown } from "./AddressInfoDropdown";
 import { AddressQRCodeModal } from "./AddressQRCodeModal";
 import { WrongNetworkDropdown } from "./WrongNetworkDropdown";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
+import { TbClick } from "react-icons/tb";
 import { Address } from "viem";
 import { useNetworkColor } from "~~/hooks/scaffold-eth";
 import { useTargetNetwork } from "~~/hooks/scaffold-eth/useTargetNetwork";
@@ -31,9 +32,23 @@ export const RainbowKitCustomConnectButton = () => {
             {(() => {
               if (!connected) {
                 return (
-                  <button className="btn btn-primary btn-sm" onClick={openConnectModal} type="button">
-                    Connect Wallet
-                  </button>
+                  <>
+                    <button
+                      className="btn border-1 border-solid border-darkPurple text-primary px-10 ml-10 !min-h-10 !h-10"
+                      onClick={openConnectModal}
+                      type="button"
+                    >
+                      Iniciar Sesión
+                    </button>
+                    <button
+                      className="btn border-0 text-base-100 bg-gradient-to-b from-darkPurple to-lightPurple px-10 ml-10 !min-h-10 !h-10"
+                      onClick={openConnectModal}
+                      type="button"
+                    >
+                      Conectar
+                      <TbClick />
+                    </button>
+                  </>
                 );
               }
 
