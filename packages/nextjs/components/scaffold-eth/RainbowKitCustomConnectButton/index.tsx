@@ -34,14 +34,14 @@ export const RainbowKitCustomConnectButton = () => {
                 return (
                   <>
                     <button
-                      className="btn border-1 border-solid border-darkPurple text-primary px-10 ml-10 !min-h-10 !h-10"
+                      className="btn border-1 border-solid border-darkPurple bg-white text-primary px-10 ml-10 !min-h-10 !h-10"
                       onClick={openConnectModal}
                       type="button"
                     >
                       Iniciar Sesión
                     </button>
                     <button
-                      className="btn border-0 text-base-100 bg-gradient-to-b from-darkPurple to-lightPurple px-10 ml-10 !min-h-10 !h-10"
+                      className="btn border-0 text-white bg-gradient-to-b from-darkPurple to-lightPurple px-10 ml-10 !min-h-10 !h-10"
                       onClick={openConnectModal}
                       type="button"
                     >
