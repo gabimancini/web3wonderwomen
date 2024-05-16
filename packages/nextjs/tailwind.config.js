@@ -96,6 +96,8 @@ module.exports = {
         lightGreen: "#F6FFEE",
         darkGrey: "#828282",
         lightGrey: "rgba(0,0,0,0.2)",
+        beige: "#FBE5D1",
+        lightBeige: "#F9F5E3",
       },
       height: {
         heroHeight: "675px",
@@ -105,7 +107,7 @@ module.exports = {
         h2: "50px",
         h3: "30px",
         h4: "20px",
-        p: "15px",
+        p: "20px",
       },
     },
   },

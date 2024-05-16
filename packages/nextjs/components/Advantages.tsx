@@ -4,7 +4,7 @@ import nftAwards from "../public/nftsAwards.svg";
 
 export const Advantages = () => {
   return (
-    <div className="container m-auto text-center">
+    <div className="container m-auto text-center mt-20 mb-20">
       <h1 className="text-active text-h1 mt-20 mb-20">Nuestros beneficios</h1>
       <div className="flex flex-wrap justify-between">
         <div className="border-solid border-2 border-active rounded-3xl p-10 md:w-[45%]">
@@ -16,9 +16,9 @@ export const Advantages = () => {
         </div>
         <div className="border-solid border-2 border-darkOrange rounded-3xl p-10 md:w-[45%]">
           <h3 className="text-darkOrange text-h3 mb-10">¡Gana NFTs, Tokens y más beneficios aprendiendo</h3>
-          <h4 className="text-h4 mb-10">
+          <p className="text-p mb-10">
             Comparte nuestras certificaciones con tus contactos en tu perfil de LinkedIn u otras redes sociales.
-          </h4>
+          </p>
           <Image src={nftAwards} alt="NFT Awards" className="m-auto" />
         </div>
       </div>
