@@ -6,7 +6,9 @@
 [data-theme] {
   background:  oklch(var(--b2));
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
@@ -34,6 +36,7 @@ p {
 a, p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
+  font-weight: 300;
 }
 .logo{ 
     font-family: "Rubik", sans-serif;

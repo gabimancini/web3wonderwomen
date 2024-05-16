@@ -19,12 +19,16 @@ type HeaderMenuLink = {
 
 export const menuLinks: HeaderMenuLink[] = [
   {
-    label: "Home",
+    label: "+ Unirme",
     href: "/",
   },
   {
-    label: "Mi ruta de aprendizaje",
-    href: "/learn",
+    label: "Beneficios",
+    href: "/#advantages",
+  },
+  {
+    label: "Metodología",
+    href: "/#methodology",
   },
 ];
 

@@ -4,7 +4,7 @@ import nftAwards from "../public/nftsAwards.svg";
 
 export const Advantages = () => {
   return (
-    <div className="container m-auto text-center mt-20 mb-20">
+    <div className="container m-auto text-center mt-20 mb-20" id="advantages">
       <h1 className="text-active text-h1 mt-20 mb-20">Nuestros beneficios</h1>
       <div className="flex flex-wrap justify-between">
         <div className="border-solid border-2 border-active rounded-3xl p-10 md:w-[45%]">
