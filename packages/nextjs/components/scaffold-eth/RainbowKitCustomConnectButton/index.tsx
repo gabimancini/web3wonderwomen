@@ -8,6 +8,7 @@ import { WrongNetworkDropdown } from "./WrongNetworkDropdown";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { TbClick } from "react-icons/tb";
 import { Address } from "viem";
+import ModalRegistration from "~~/components/ModalRegistration";
 import { useNetworkColor } from "~~/hooks/scaffold-eth";
 import { useTargetNetwork } from "~~/hooks/scaffold-eth/useTargetNetwork";
 import { getBlockExplorerAddressLink } from "~~/utils/scaffold-eth";
@@ -33,13 +34,7 @@ export const RainbowKitCustomConnectButton = () => {
               if (!connected) {
                 return (
                   <>
-                    <button
-                      className="btn border-1 border-solid border-darkOrange bg-white text-darkOrange px-10 ml-10 !min-h-10 !h-10"
-                      onClick={openConnectModal}
-                      type="button"
-                    >
-                      Iniciar Sesión
-                    </button>
+                    <ModalRegistration />
                     <button
                       className="btn border-0 text-white bg-gradient-to-b from-darkOrange to-lightOrange px-10 ml-10 !min-h-10 !h-10"
                       onClick={openConnectModal}
