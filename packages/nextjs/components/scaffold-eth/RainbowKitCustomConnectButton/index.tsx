@@ -50,7 +50,6 @@ export const RainbowKitCustomConnectButton = () => {
               if (chain.unsupported || chain.id !== targetNetwork.id) {
                 return <WrongNetworkDropdown />;
               }
-
               return (
                 <>
                   <div className="flex flex-col items-center mr-1">
