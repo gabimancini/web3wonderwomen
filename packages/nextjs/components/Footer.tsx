@@ -1,79 +1,51 @@
 import React from "react";
-import Link from "next/link";
-import { hardhat } from "viem/chains";
-import { CurrencyDollarIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
-import { HeartIcon } from "@heroicons/react/24/outline";
-import { SwitchTheme } from "~~/components/SwitchTheme";
-import { BuidlGuidlLogo } from "~~/components/assets/BuidlGuidlLogo";
-import { Faucet } from "~~/components/scaffold-eth";
-import { useTargetNetwork } from "~~/hooks/scaffold-eth/useTargetNetwork";
-import { useGlobalState } from "~~/services/store/store";
+import Image from "next/image";
+import logo from "../public/logo.svg";
+import { BsGithub, BsHeartFill, BsInstagram, BsLinkedin } from "react-icons/bs";
 
-/**
- * Site footer
- */
+//import { hardhat } from "viem/chains";
+//import { SwitchTheme } from "~~/components/SwitchTheme";
+// import { useTargetNetwork } from "~~/hooks/scaffold-eth/useTargetNetwork";
+
 export const Footer = () => {
-  const nativeCurrencyPrice = useGlobalState(state => state.nativeCurrencyPrice);
-  const { targetNetwork } = useTargetNetwork();
-  const isLocalNetwork = targetNetwork.id === hardhat.id;
+  //const { targetNetwork } = useTargetNetwork();
+  //const isLocalNetwork = targetNetwork.id === hardhat.id;
 
   return (
-    <div className="min-h-0 py-5 px-1 mb-11 lg:mb-0">
-      <div>
-        <div className="fixed flex justify-between items-center w-full z-10 p-4 bottom-0 left-0 pointer-events-none">
-          <div className="flex flex-col md:flex-row gap-2 pointer-events-auto">
-            {nativeCurrencyPrice > 0 && (
-              <div>
-                <div className="btn btn-primary btn-sm font-normal gap-1 cursor-auto">
-                  <CurrencyDollarIcon className="h-4 w-4" />
-                  <span>{nativeCurrencyPrice}</span>
-                </div>
-              </div>
-            )}
-            {isLocalNetwork && (
-              <>
-                <Faucet />
-                <Link href="/blockexplorer" passHref className="btn btn-primary btn-sm font-normal gap-1">
-                  <MagnifyingGlassIcon className="h-4 w-4" />
-                  <span>Block Explorer</span>
-                </Link>
-              </>
-            )}
-          </div>
-          <SwitchTheme className={`pointer-events-auto ${isLocalNetwork ? "self-end md:self-auto" : ""}`} />
+    <div className="p-20">
+      <div className="flex justify-between border-b-[1px] border-solid border-borderGrey pb-4">
+        <div className="flex">
+          <Image src={logo} alt="Logo" className="mr-2" />
+          <span className="logo text-darkGreen">DeFiWise</span>
+        </div>
+        <div>
+          <ul className="text-darkOrange flex gap-6">
+            <li>
+              <BsLinkedin size={24} />
+            </li>
+            <li>
+              <BsInstagram size={24} />
+            </li>
+            <li>
+              <BsGithub size={24} />
+            </li>
+          </ul>
+          {/* <SwitchTheme className={`pointer-events-auto ${isLocalNetwork ? "self-end md:self-auto" : ""}`} />*/}
         </div>
       </div>
-      <div className="w-full">
-        <ul className="menu menu-horizontal w-full">
-          <div className="flex justify-center items-center gap-2 text-sm w-full">
-            <div className="text-center">
-              <a href="https://github.com/scaffold-eth/se-2" target="_blank" rel="noreferrer" className="link">
-                Hola!!
-              </a>
-            </div>
-            <span>·</span>
-            <div className="flex justify-center items-center gap-2">
-              <p className="m-0 text-center">
-                Built with <HeartIcon className="inline-block h-4 w-4" /> at
-              </p>
-              <a
-                className="flex justify-center items-center gap-1"
-                href="https://buidlguidl.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <BuidlGuidlLogo className="w-3 h-5 pb-1" />
-                <span className="link">BuidlGuidl</span>
-              </a>
-            </div>
-            <span>·</span>
-            <div className="text-center">
-              <a href="https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA" target="_blank" rel="noreferrer" className="link">
-                Support
-              </a>
-            </div>
-          </div>
-        </ul>
+      <div className="flex justify-between">
+        <div>
+          <p className="size-copyright">Copyright 2024 © DeFiWise. All rights reserved.</p>
+        </div>
+        <div>
+          <p className="size-copyright flex items-center">
+            Hecho con
+            <span className="px-2">
+              <BsHeartFill fill="red" />
+            </span>{" "}
+            por Web3WonderWomen
+          </p>
+        </div>
       </div>
     </div>
   );
