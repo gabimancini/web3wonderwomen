@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         <>
           {" "}
           <Head>
-            <link rel="shortcut icon" href="../public/" />
+            <link rel="shortcut icon" href="../public/images/ico.ico" />
           </Head>
           <Hero />
           <Advantages />

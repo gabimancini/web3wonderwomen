@@ -2,12 +2,14 @@ import "@rainbow-me/rainbowkit/styles.css";
 import { ScaffoldEthAppWithProviders } from "~~/components/ScaffoldEthAppWithProviders";
 import { ThemeProvider } from "~~/components/ThemeProvider";
 import "~~/styles/globals.css";
-import { getMetadata } from "~~/utils/scaffold-eth/getMetadata";
 
-export const metadata = getMetadata({
+export const metadata = {
   title: "DefiWise",
   description: "Aprende de Web3 desde 0",
-});
+  icons: {
+    icon: ["/logo.svg"],
+  },
+};
 
 const ScaffoldEthApp = ({ children }: { children: React.ReactNode }) => {
   return (

@@ -10,11 +10,6 @@ import { useOutsideClick } from "~~/hooks/scaffold-eth";
 
 /* eslint-disable @next/next/no-img-element */
 
-/* eslint-disable @next/next/no-img-element */
-
-/* eslint-disable @next/next/no-img-element */
-
-//BugAntIcon
 type HeaderMenuLink = {
   label: string;
   href: string;
@@ -68,7 +63,7 @@ export const Header = () => {
   );
 
   return (
-    <div className="sticky lg:static top-0  min-h-0 -0 z-20 shadow-md shadow-primary px-0 sm:px-2">
+    <div className="sticky lg:static top-0  min-h-0 -0 z-20  px-0 sm:px-2">
       <div className="navbar max-w-screen-2xl mx-auto flex-shrink justify-between ">
         <div className="navbar-start w-auto">
           <div className="lg:hidden dropdown" ref={burgerMenuRef}>

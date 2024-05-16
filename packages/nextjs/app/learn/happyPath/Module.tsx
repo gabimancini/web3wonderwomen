@@ -5,7 +5,7 @@ const Module = () => {
   return (
     <div>
       <ModuleTitle
-        className="flex fle-col text-white bg-active p-5 rounded-xl"
+        className="flex justify-between text-white bg-active p-5 rounded-xl"
         num="1"
         subTitle="¿Qué es DeFi (Finanzas Descentralizadas)?"
       />

@@ -3,7 +3,7 @@ const AsideMenuBtn = (props: any) => {
   const Icon = icon;
   return (
     <button className={className}>
-      <Icon fill={fill} />
+      <Icon fill={fill} className="mr-2" />
       {value}
     </button>
   );

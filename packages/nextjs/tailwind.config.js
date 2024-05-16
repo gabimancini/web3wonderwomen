@@ -108,6 +108,7 @@ module.exports = {
         h3: "30px",
         h4: "20px",
         p: "20px",
+        subP: "15px",
         copyRight: "16px",
       },
     },

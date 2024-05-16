@@ -5,7 +5,7 @@ import { NextPage } from "next";
 
 const Learn: NextPage = () => {
   return (
-    <div className="flex p-8 max-w-[1550px] m-auto">
+    <div className="flex p-6 max-w-[1550px] mx-auto">
       <AsideMenu />
       <HappyPath />
       <Progress />
