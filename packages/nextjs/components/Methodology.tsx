@@ -1,7 +1,7 @@
 import Image from "next/image";
 import callToAction from "../public/call_to_action.svg";
 
-export const CallToAction = () => {
+export const Methodology = () => {
   return (
     <div className="container m-auto mt-20 mb-20">
       <h1 className="text-center text-darkOrange text-h1 mt-20 mb-20">¡Aprende con una metodología única!</h1>

@@ -2,15 +2,15 @@
 
 import type { NextPage } from "next";
 import { Advantages } from "~~/components/Advantages";
-import { CallToAction } from "~~/components/CallToAction";
 import { Hero } from "~~/components/Hero";
+import { Methodology } from "~~/components/Methodology";
 
 const Home: NextPage = () => {
   return (
     <>
       <Hero />
       <Advantages />
-      <CallToAction />
+      <Methodology />
     </>
   );
 };
