@@ -41,7 +41,7 @@ export const HeaderMenuLinks = () => {
         const isActive = pathname === href;
         return (
           <li key={href}>
-            <Link href={href} passHref className={`px-10 ${isActive ? "!text-active" : "text-neutral"} `}>
+            <Link href={href} passHref className={`px-8 ${isActive ? "!text-active" : "text-neutral"} `}>
               {icon}
               <span>{label}</span>
             </Link>
@@ -90,18 +90,18 @@ export const Header = () => {
             )}
           </div>
           <Link href="/" passHref className="hidden lg:flex items-center gap-2 ml-4 mr-6 shrink-0">
-            <div className="flex  items-center relative w-96 h-10">
+            <div className="flex  items-center relative  h-10">
               <img alt="SE2 logo" className="cursor-pointer mr-2" src="/logo.svg" />
               <span className="logo text-darkGreen">DeFiWise</span>
             </div>
           </Link>
         </div>
-        <div>
+        <div className="flex justify-end">
           {" "}
           <ul className="hidden lg:flex lg:flex-nowrap menu menu-horizontal text-base px-1 gap-2">
             <HeaderMenuLinks />
           </ul>
-          <div className="navbar-end flex mr-4">
+          <div className="navbar-end flex items-center">
             <RainbowKitCustomConnectButton />
             <FaucetButton />
           </div>

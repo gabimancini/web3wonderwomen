@@ -12,8 +12,8 @@ export const Footer = () => {
   //const isLocalNetwork = targetNetwork.id === hardhat.id;
 
   return (
-    <div className="p-20">
-      <div className="flex justify-between border-b-[1px] border-solid border-borderGrey pb-4">
+    <div className="py-10 px-20">
+      <div className="flex flex-wrap justify-between border-b-[1px] border-solid border-borderGrey pb-4">
         <div className="flex">
           <Image src={logo} alt="Logo" className="mr-2" />
           <span className="logo text-darkGreen">DeFiWise</span>
@@ -33,7 +33,7 @@ export const Footer = () => {
           {/* <SwitchTheme className={`pointer-events-auto ${isLocalNetwork ? "self-end md:self-auto" : ""}`} />*/}
         </div>
       </div>
-      <div className="flex justify-between">
+      <div className="flex flex-wrap justify-between">
         <div>
           <p className="size-copyright">Copyright 2024 © DeFiWise. All rights reserved.</p>
         </div>
