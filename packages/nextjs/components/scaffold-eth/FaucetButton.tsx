@@ -57,7 +57,7 @@ export const FaucetButton = () => {
       className={
         !isBalanceZero
           ? "ml-1"
-          : "ml-1 tooltip tooltip-bottom tooltip-secondary tooltip-open font-bold before:left-auto before:transform-none before:content-[attr(data-tip)] before:right-0"
+          : "ml-1  tooltip tooltip-bottom tooltip-secondary tooltip-open font-bold before:left-auto before:transform-none before:content-[attr(data-tip)] before:right-0 before:bg-white before:text-darkOrange before:border-darkOrange before:border-[1px]"
       }
       data-tip="Grab funds from faucet"
     >

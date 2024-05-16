@@ -5,7 +5,7 @@ const AsideMenu = () => {
   return (
     <div className="flex flex-col">
       <AsideMenuBtn
-        className="flex items-center bg-lightYellow text-darkOrange rounded-20 p-2"
+        className="flex items-center bg-lightYellow text-darkOrange rounded-20 p-2 border-[1px] border-darkOrange"
         value="Ruta de aprendizaje"
         icon={BsBook}
       />
