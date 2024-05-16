@@ -5,7 +5,7 @@ pragma solidity >=0.8.0 <0.9.0;
 import "hardhat/console.sol";
 
 // Use openzeppelin to inherit battle-tested implementations (ERC20, ERC721, etc)
-import "@openzeppelin/contracts/access/Ownable.sol";
+// import "@openzeppelin/contracts/access/Ownable.sol";
 
 /**
  * A smart contract that allows changing a state variable of the contract and tracking the changes
@@ -41,6 +41,7 @@ contract YourContract {
 		require(msg.sender == owner, "Not the Owner");
 		_;
 	}
+	
 	function setNewOwner(address _newOwner) external isOwner {
 		owner = _newOwner;
 	}
