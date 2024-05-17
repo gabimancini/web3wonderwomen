@@ -81,7 +81,7 @@ DeFiWise is an online learning platform that utilizes blockchain technology to t
 
 - **DNSRegistrar ENS Contract**: This contract acts as an intermediary between Internet domain names and Ethereum names in the Ethereum Name Service (ENS) system. It allows claiming domain names on Ethereum, verifying ownership of the domain name on the Internet through special tests.
 
-- **Unlock-protocol**: We are proud to present our MVP at the [Latina Blockchain Hackathon](https://womenbizweb3.notion.site/Latina-Blockchain-Hackathon-867d722240c34f8383fd4ec9e1beca61) and would love for you to join us at this exciting event. Join us through (unlock-protocol)[(https://app.unlock-protocol.com/event/de-fi-wise)] and discover how we are revolutionizing financial education.
+- **Unlock-protocol**: We are proud to present our MVP at the [Latina Blockchain Hackathon](https://womenbizweb3.notion.site/Latina-Blockchain-Hackathon-867d722240c34f8383fd4ec9e1beca61) and would love for you to join us at this exciting event. Join us through [unlock-protocol](https://app.unlock-protocol.com/event/de-fi-wise) and discover how we are revolutionizing financial education.
 
 ## Installation
 
