@@ -45,6 +45,7 @@
     "node": ">=18.17.0"
   },
   "dependencies": {
+    "@ensdomains/buffer": "^0.1.1",
     "@nextui-org/modal": "^2.0.33",
     "@nextui-org/react": "^2.3.6",
     "@nextui-org/system": "^2.1.2",
