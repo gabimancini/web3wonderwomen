@@ -26,4 +26,3 @@ export const Module2 = () => {
     </div>
   );
 };
-

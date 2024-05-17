@@ -16,7 +16,6 @@ const Progress = () => {
             </div>
             <span className=" text-subP text-light text-lightGrey">8/20 Puntos</span>
           </div>
-
         </div>
       </div>
       <Image src={progressChart} alt="Progress Chart" width={300} height={300} />
