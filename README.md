@@ -100,7 +100,7 @@ Scaffold-ETH is used to scaffold the project, providing a robust development env
 - Node (>= v18.17)
 - Yarn (v1 or v2+)
   
-- Then, run the following commands:
+Then, run the following commands:
 
 ```bash 
 - yarn install # install dependencies
