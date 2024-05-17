@@ -6,10 +6,10 @@ import { NextPage } from "next";
 
 const Learn: NextPage = () => {
   return (
-    <div className="flex p-6 max-w-[1550px] gap-10 mx-auto">
+    <div className="lg:flex p-6 max-w-[1550px] gap-10 mx-auto">
       <AsideMenu />
       <HappyPath />
-      <aside className="max-w-[380px]">
+      <aside className="lg:max-w-[380px] ">
         <Progress />
         <Compite />
       </aside>

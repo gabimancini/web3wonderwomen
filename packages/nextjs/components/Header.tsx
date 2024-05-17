@@ -26,6 +26,8 @@ import { useOutsideClick } from "~~/hooks/scaffold-eth";
 
 /* eslint-disable @next/next/no-img-element */
 
+/* eslint-disable @next/next/no-img-element */
+
 type HeaderMenuLink = {
   label: string;
   href: string;

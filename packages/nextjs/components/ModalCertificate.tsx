@@ -9,11 +9,11 @@ export const ModalCertificate = ({ setCertModal }: any) => {
   };
   return (
     <section className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
-      <div className="max-w-[820px] bg-white shadow-lg p-8 rounded-lg flex flex-col justify-center items-center">
+      <div className="max-w-[90%] md:max-w-[820px] bg-white shadow-lg p-8 rounded-lg flex flex-col justify-center items-center">
         <BsFillTrophyFill fill="darkOrange" size={40} />
         <h3 className="text-darkOrange mt-8 text-h3">¡Felicidades!</h3>
 
-        <div className="flex items-center  bg-lightYellow">
+        <div className="flex flex-col md:flex-row items-center  bg-lightYellow">
           <Image src={certificate} alt="Defiwise NFT" />
           <div className="p-8 text-center">
             <h4 className="text-darkOrange text-h4 mb-4">¡Obtuviste tu primer certificado!</h4>

@@ -5,9 +5,9 @@ import { BsStars } from "react-icons/bs";
 export const ModuleCallToAction = () => {
   return (
     <section className="border-[1px] border-darkOrange rounded-2xl px-14 py-10">
-      <div className="flex items-center">
+      <div className="flex flex-col md:flex-row items-center">
         <Image src={pet_nft} alt="Pet add advice" />
-        <div className="pl-8">
+        <div className="md:pl-8">
           <p className="text-subP text-darkGrey">¡Te falta poco para terminar tu curso!</p>
           <h4 className="text-h4 text-darkOrange leading-6">Completa los módulos para desbloquear tu certificado 🙌</h4>
         </div>

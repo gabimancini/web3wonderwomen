@@ -26,7 +26,7 @@ const ModuleTask = (props: ModuleTaskProps) => {
   };
 
   return (
-    <div className="flex justify-center flex-wrap p-6 pt-3 max-w-[580px]">
+    <div className="flex justify-center flex-wrap p-4 pt-3 max-w-[580px]">
       <Image src={petImg} alt="Pet" className="order-2 m-auto" />
       {activityData.map(activity => {
         const Icon = activity.icon;
