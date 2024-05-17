@@ -20,6 +20,8 @@ DeFiWise es una plataforma de aprendizaje en línea que utiliza tecnología bloc
 
 - **Contrato DNSRegistrar ENS**: Este contrato actúa como un intermediario entre los nombres de dominio de Internet y los nombres de Ethereum en el sistema ENS (Ethereum Name Service). Permite reclamar nombres de dominio en Ethereum, verificando la propiedad del nombre de dominio en Internet mediante pruebas especiales.
 
+- **Unlock-protocol**: Estamos orgullosas de presentar nuestro MVP en la [Hackathon Latina Blockchain](https://womenbizweb3.notion.site/Latina-Blockchain-Hackathon-867d722240c34f8383fd4ec9e1beca61) y nos encantaría que nos acompañaras en este emocionante evento. Únete a nosotras por medio de [unlock-protocol](https://app.unlock-protocol.com/event/de-fi-wise) y descubre cómo estamos revolucionando la educación financiera.
+
 # Instalación
 
 ### Configurar el ambiente de manera local
@@ -75,9 +77,11 @@ DeFiWise is an online learning platform that utilizes blockchain technology to t
 
 ## Contracts in the Project
 
-- Sepolia Transaction Hash (Txhash) Details: This contract is used to record transaction details on the Sepolia testnet blockchain. It is used to generate course completion certificates, which can be verified on the blockchain.
+- **Sepolia Transaction Hash (Txhash) Details**: This contract is used to record transaction details on the Sepolia testnet blockchain. It is used to generate course completion certificates, which can be verified on the blockchain.
 
-- DNSRegistrar ENS Contract: This contract acts as an intermediary between Internet domain names and Ethereum names in the Ethereum Name Service (ENS) system. It allows claiming domain names on Ethereum, verifying ownership of the domain name on the Internet through special tests.
+- **DNSRegistrar ENS Contract**: This contract acts as an intermediary between Internet domain names and Ethereum names in the Ethereum Name Service (ENS) system. It allows claiming domain names on Ethereum, verifying ownership of the domain name on the Internet through special tests.
+
+- **Unlock-protocol**: We are proud to present our MVP at the [Latina Blockchain Hackathon](https://womenbizweb3.notion.site/Latina-Blockchain-Hackathon-867d722240c34f8383fd4ec9e1beca61) and would love for you to join us at this exciting event. Join us through (unlock-protocol)[(https://app.unlock-protocol.com/event/de-fi-wise)] and discover how we are revolutionizing financial education.
 
 ## Installation
 
