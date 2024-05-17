@@ -14,7 +14,16 @@ DeFiWise es una plataforma de aprendizaje en línea que utiliza tecnología bloc
 - **Comunidad**: Foros y grupos de discusión para un aprendizaje colaborativo.
 - **DeFi Educación**: Módulos específicos sobre finanzas descentralizadas (DeFi).
 
-# Contratos en el Proyecto
+
+## Sobre Scaffold-ETH
+
+Este proyecto utiliza Scaffold-ETH, un marco de desarrollo para construir rápidamente aplicaciones Ethereum. Scaffold-ETH proporciona una colección de herramientas y bibliotecas preconfiguradas para agilizar el proceso de desarrollo, incluyendo Hardhat, React y ethers.js. Para obtener más información sobre Scaffold-ETH, visita el [repositorio de GitHub](https://github.com/scaffold-eth/scaffold-eth-2).
+
+## Uso de Scaffold-ETH
+
+Scaffold-ETH se utiliza para generar la estructura del proyecto, proporcionando un entorno de desarrollo robusto y herramientas para el desarrollo de contratos inteligentes de Ethereum y la interfaz de usuario. 
+
+## Contratos en el Proyecto
 
 - **Sepolia Transaction Hash (Txhash) Details**: Este contrato es utilizado para registrar detalles de transacciones en la blockchain de prueba Sepolia. Es utilizado para generar certificados de finalización de cursos, los cuales pueden ser verificados en la [blockchain](https://sepolia.etherscan.io/tx/0x01ed297f62b872542c9c59ccd48da2650cb0639a57aaadfb1cbda31786e1ae09).
 
@@ -60,6 +69,14 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más 
 
 DeFiWise is an online learning platform that utilizes blockchain technology to teach and enhance financial education. It focuses on gamification and engaging content to attract various audiences.
 
+## About Scaffold-ETH
+
+This project utilizes Scaffold-ETH, a development framework for rapidly building Ethereum applications. Scaffold-ETH provides a collection of pre-configured tools and libraries to streamline the development process, including Hardhat, React, and ethers.js. For more information on Scaffold-ETH, visit the [GitHub repository]((https://github.com/scaffold-eth/scaffold-eth-2)).
+
+## Utilizing Scaffold-ETH
+
+Scaffold-ETH is used to scaffold the project, providing a robust development environment and tooling for Ethereum smart contracts and frontend development. 
+
 ##  Key Features
 
 - Gamified Courses: Interactive courses and games covering basic financial topics.
@@ -68,25 +85,6 @@ DeFiWise is an online learning platform that utilizes blockchain technology to t
 - Simulated Investing: Investment simulations in a secure environment.
 - Community: Forums and discussion groups for collaborative learning.
 - DeFi Education: Specific modules on decentralized finance (DeFi).
-
-## Sobre Scaffold-ETH
-
-Este proyecto utiliza Scaffold-ETH, un marco de desarrollo para construir rápidamente aplicaciones Ethereum. Scaffold-ETH proporciona una colección de herramientas y bibliotecas preconfiguradas para agilizar el proceso de desarrollo, incluyendo Hardhat, React y ethers.js.
-
-Para obtener más información sobre Scaffold-ETH, visita el [repositorio de GitHub](https://github.com/austintgriffith/scaffold-eth).
-
-## Uso de Scaffold-ETH
-
-Scaffold-ETH se utiliza para generar la estructura del proyecto, proporcionando un entorno de desarrollo robusto y herramientas para el desarrollo de contratos inteligentes de Ethereum y la interfaz de usuario. 
-Lsa dice:## About Scaffold-ETH
-
-This project utilizes Scaffold-ETH, a development framework for rapidly building Ethereum applications. Scaffold-ETH provides a collection of pre-configured tools and libraries to streamline the development process, including Hardhat, React, and ethers.js.
-
-For more information on Scaffold-ETH, visit the [GitHub repository](https://github.com/austintgriffith/scaffold-eth).
-
-## Utilizing Scaffold-ETH
-
-Scaffold-ETH is used to scaffold the project, providing a robust development environment and tooling for Ethereum smart contracts and frontend development. 
 
 ## Contracts in the Project
 
@@ -122,4 +120,3 @@ Scaffold-ETH is used to scaffold the project, providing a robust development env
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
-
