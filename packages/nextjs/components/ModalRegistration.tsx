@@ -22,7 +22,7 @@ const ModalRegistration: React.FC = () => {
         Registrar
       </button>
       {openModal && (
-        <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
+        <div className="z-[999] fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
           <div className="w-80 bg-white shadow-lg py-4 rounded-lg">
             <div className="flex justify-between items-center border-b border-gray-300 pb-3 px-4 mb-4">
               <h2 className="text-lg font-medium text-gray-900">Obten una billetera</h2>
