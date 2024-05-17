@@ -3,10 +3,9 @@ import Link from "next/link";
 import DefIWiseNFT from "../public/DeFiWiseNFT.png";
 import { BsArrowUpRightSquare, BsAwardFill, BsStars } from "react-icons/bs";
 
-export const ModalNFT = ({ setModal, setIsClicked }: any) => {
-  const closeModal = () => {
+export const ModalNFT = ({ setModal }: any) => {
+  const closeModalNFT = () => {
     setModal(false);
-    setIsClicked(false);
   };
   return (
     <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
@@ -19,7 +18,7 @@ export const ModalNFT = ({ setModal, setIsClicked }: any) => {
           <div className="p-8">
             <h4 className="text-darkOrange text-h4 mb-4">Ganaste un NFT 🙌</h4>
             <p className="text-subP my-1">
-              <Link href="/learn" className="flex text-decoration-line">
+              <Link href="/learn" className="flex underline">
                 Ver el contrato de la transacción <BsArrowUpRightSquare />{" "}
               </Link>
             </p>
@@ -29,7 +28,7 @@ export const ModalNFT = ({ setModal, setIsClicked }: any) => {
             </p>
           </div>
         </div>
-        <button className=" flex items-center py-2 px-10 rounded-2xl bg-active text-white" onClick={closeModal}>
+        <button className=" flex items-center py-2 px-10 rounded-2xl bg-active text-white" onClick={closeModalNFT}>
           Continuar <BsStars fill="white" className="ml-2" />
         </button>
       </div>

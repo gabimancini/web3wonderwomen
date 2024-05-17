@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import petImg from "../../../public/pet.png";
+import { ModalCertificate } from "~~/components/ModalCertificate";
 import { ModalNFT } from "~~/components/ModalNFT";
 import { activityData } from "~~/data/activityData";
 
@@ -11,16 +12,19 @@ interface ModuleTaskProps {
 const ModuleTask = (props: ModuleTaskProps) => {
   const [isClicked, setIsClicked] = useState(false);
   const [openModal, setModal] = useState(false);
+  const [certModal, setCertModal] = useState(false);
 
-  const getLastTask = (id: number) => {
+  const getLastTask = (id: number, bgColor: string) => {
     if (id !== 5) return;
-    setIsClicked(!isClicked);
-    setTimeout(handleModal, 500);
+    setIsClicked(true);
+    if (certModal || openModal) return;
+    if (bgColor == "bg-pink text-white") {
+      setCertModal(!certModal);
+    } else {
+      setModal(!openModal);
+    }
   };
-  const handleModal = () => {
-    if (openModal) return;
-    setModal(!openModal);
-  };
+
   return (
     <div className="flex justify-center flex-wrap p-6 pt-3 max-w-[580px]">
       <Image src={petImg} alt="Pet" className="order-2 m-auto" />
@@ -33,7 +37,7 @@ const ModuleTask = (props: ModuleTaskProps) => {
               activity.id === 1 || isClicked ? props.bgColor : "bg-lightGrey"
             }`}
             key={activity.id}
-            onClick={() => getLastTask(activity.id)}
+            onClick={() => getLastTask(activity.id, props.bgColor)}
           >
             <Icon size={40} />
             <p className={`bg-white p-1 mt-3 mb-0 rounded-md ${activity.id === 1 ? props.textColor : "text-darkGrey"}`}>
@@ -42,7 +46,8 @@ const ModuleTask = (props: ModuleTaskProps) => {
           </div>
         );
       })}
-      {openModal && <ModalNFT setModal={setModal} setIsClicked={setIsClicked} />}
+      {openModal && <ModalNFT setModal={setModal} />}
+      {certModal && <ModalCertificate setCertModal={setCertModal} />}
     </div>
   );
 };
