@@ -3,7 +3,7 @@ import { BsAward, BsBook, BsJournals, BsStars } from "react-icons/bs";
 
 const AsideMenu = () => {
   return (
-    <div className="flex flex-col p-6">
+    <aside className="flex flex-col p-6">
       <AsideMenuBtn
         className="flex items-center bg-lightYellow text-darkOrange font-normal rounded-xl p-2 border-[1px] border-darkOrange mb-2"
         value="Ruta de aprendizaje"
@@ -28,7 +28,7 @@ const AsideMenu = () => {
         icon={BsStars}
         fill="#CDCDCD"
       />
-    </div>
+    </aside>
   );
 };
 export default AsideMenu;

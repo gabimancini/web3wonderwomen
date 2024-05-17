@@ -5,7 +5,7 @@ import { dataImgLeft } from "~~/data/data";
 
 export const Hero = () => {
   return (
-    <div className="flex justify-between md:h-heroHeight bg-heroPattern bg-contain md:p-8">
+    <section className="flex justify-between md:h-heroHeight bg-heroPattern bg-contain md:p-8">
       <div className="hidden md:flex flex-col justify-center  md:w-1/5 p-8 ">
         {dataImgRight.map(img => {
           return (
@@ -53,6 +53,6 @@ export const Hero = () => {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };

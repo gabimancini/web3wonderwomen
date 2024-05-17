@@ -9,10 +9,10 @@ const Learn: NextPage = () => {
     <div className="flex p-6 max-w-[1550px] gap-10 mx-auto">
       <AsideMenu />
       <HappyPath />
-      <div className="max-w-[380px]">
+      <aside className="max-w-[380px]">
         <Progress />
         <Compite />
-      </div>
+      </aside>
     </div>
   );
 };

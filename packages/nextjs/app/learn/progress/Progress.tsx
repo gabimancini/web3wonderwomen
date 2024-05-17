@@ -4,7 +4,7 @@ import { BsPatchCheckFill } from "react-icons/bs";
 
 const Progress = () => {
   return (
-    <aside className="p-6 border-[1px] border-lightGrey rounded-2xl self-start mb-10">
+    <article className="p-6 border-[1px] border-lightGrey rounded-2xl self-start mb-10">
       <h4 className="text-darkGrey mb-4 font-semibold">Tu progreso</h4>
       <div className="flex">
         <BsPatchCheckFill fill="darkOrange" size={35} />
@@ -19,7 +19,7 @@ const Progress = () => {
         </div>
       </div>
       <Image src={progressChart} alt="Progress Chart" width={300} height={300} />
-    </aside>
+    </article>
   );
 };
 export default Progress;

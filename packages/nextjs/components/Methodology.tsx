@@ -3,7 +3,7 @@ import callToAction from "../public/call_to_action.svg";
 
 export const Methodology = () => {
   return (
-    <div className="container m-auto  mb-20" id="methodology">
+    <section className="container m-auto  mb-20" id="methodology">
       <h1 className="text-center text-darkOrange text-h1 mt-20 mb-20">¡Aprende con una metodología única!</h1>
       <div className="flex flex-wrap justify-center lg:flex-nowrap m-auto bg-gradient-to-r from-lightBeige to-beige md:max-w-[1170px] p-10">
         <Image src={callToAction} alt="Call to Action" />
@@ -17,6 +17,6 @@ export const Methodology = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

@@ -4,7 +4,7 @@ import { BsStars } from "react-icons/bs";
 
 export const ModuleCallToAction = () => {
   return (
-    <div className="border-[1px] border-darkOrange rounded-2xl px-14 py-10">
+    <section className="border-[1px] border-darkOrange rounded-2xl px-14 py-10">
       <div className="flex items-center">
         <Image src={pet_nft} alt="Pet add advice" />
         <div className="pl-8">
@@ -19,6 +19,6 @@ export const ModuleCallToAction = () => {
       <button className="m-auto flex items-center py-2 px-10 rounded-2xl bg-gradient-to-b from-darkOrange to-lightOrange text-white font-normal">
         Descubrir más cursos <BsStars fill="white" />
       </button>
-    </div>
+    </section>
   );
 };

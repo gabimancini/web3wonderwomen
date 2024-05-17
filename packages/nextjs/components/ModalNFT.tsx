@@ -8,7 +8,7 @@ export const ModalNFT = ({ setModal }: any) => {
     setModal(false);
   };
   return (
-    <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
+    <section className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
       <div className="max-w-[650px] bg-white shadow-lg p-8 rounded-lg flex flex-col justify-center items-center">
         <BsAwardFill fill="darkOrange" size={40} />
         <h3 className="text-darkOrange mt-8 text-h3">¡Felicidades!</h3>
@@ -32,6 +32,6 @@ export const ModalNFT = ({ setModal }: any) => {
           Continuar <BsStars fill="white" className="ml-2" />
         </button>
       </div>
-    </div>
+    </section>
   );
 };
