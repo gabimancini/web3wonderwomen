@@ -96,8 +96,10 @@ module.exports = {
         darkGrey: "#828282",
         lightGrey: "rgba(0,0,0,0.2)",
         borderGrey: "#CDCDCD",
+        progressGrey: "#E5E5E5",
         beige: "#FBE5D1",
         lightBeige: "#F9F5E3",
+        pink: "#EF798A",
       },
       height: {
         heroHeight: "675px",
