@@ -29,7 +29,7 @@ export const ModalCertificate = ({ setCertModal }: any) => {
           </div>
         </div>
         <button
-          className=" flex items-center py-2 px-10 rounded-2xl bg-gradient-to-b from-darkOrange to-lightOrange text-white font-normal"
+          className="flex items-center py-2 px-10 rounded-2xl bg-gradient-to-b from-darkOrange to-lightOrange text-white font-normal"
           onClick={closeModal}
         >
           Volver al inicio <BsJournalCheck fill="white" className="ml-2" />
