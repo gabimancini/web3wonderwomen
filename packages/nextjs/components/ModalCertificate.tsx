@@ -18,7 +18,12 @@ export const ModalCertificate = ({ setCertModal }: any) => {
           <div className="p-8 text-center">
             <h4 className="text-darkOrange text-h4 mb-4">¡Obtuviste tu primer certificado!</h4>
             <p className="text-subP my-1">
-              <Link href="/learn" className="flex justify-center underline">
+              <Link
+                target="_blank"
+                href="https://sepolia.etherscan.io/tx/0x01ed297f62b872542c9c59ccd48da2650cb0639a57aaadfb1cbda31786e1ae09"
+                rel="noopener noreferrer"
+                className="flex justify-center underline"
+              >
                 Ver el contrato de la transacción <BsArrowUpRightSquare />{" "}
               </Link>
             </p>

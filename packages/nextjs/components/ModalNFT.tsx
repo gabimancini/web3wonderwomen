@@ -18,7 +18,12 @@ export const ModalNFT = ({ setModal }: any) => {
           <div className="p-8">
             <h4 className="text-darkOrange text-h4 mb-4">Ganaste un NFT 🙌</h4>
             <p className="text-subP my-1">
-              <Link href="/learn" className="flex underline">
+              <Link
+                target="_blank"
+                href="https://collectors.poap.xyz/drop/173768"
+                rel="noopener noreferrer"
+                className="flex underline"
+              >
                 Ver el contrato de la transacción <BsArrowUpRightSquare />{" "}
               </Link>
             </p>
