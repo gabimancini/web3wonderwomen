@@ -15,7 +15,7 @@ const ModalRegistration: React.FC = () => {
   return (
     <div>
       <button
-        className="btn text-darkOrange bg-white border-solid border-2 border-darkOrange px-10 ml-10 !min-h-10 !h-10"
+        className="btn text-darkOrange bg-white border-solid border-2 border-darkOrange px-4 md:px-10 md:ml-10 !min-h-10 !h-10"
         onClick={handleModal}
         type="button"
       >

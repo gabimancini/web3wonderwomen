@@ -36,7 +36,7 @@ export const RainbowKitCustomConnectButton = () => {
                   <>
                     <ModalRegistration />
                     <button
-                      className="btn border-0 text-white bg-gradient-to-b from-darkOrange to-lightOrange px-10 ml-10 !min-h-10 !h-10"
+                      className="btn border-0 text-white bg-gradient-to-b from-darkOrange to-lightOrange px-4 md:px-10 ml-4 md:ml-10 !min-h-10 !h-10"
                       onClick={openConnectModal}
                       type="button"
                     >

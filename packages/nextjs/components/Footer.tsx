@@ -12,8 +12,8 @@ export const Footer = () => {
   //const isLocalNetwork = targetNetwork.id === hardhat.id;
 
   return (
-    <div className="py-10 px-20">
-      <div className="flex flex-wrap justify-between border-b-[1px] border-solid border-borderGrey pb-4">
+    <div className="p-6 md:py-10 md:px-20">
+      <div className="flex items-center flex-wrap justify-between border-b-[1px] border-solid border-borderGrey pb-4">
         <div className="flex">
           <Image src={logo} alt="Logo" className="mr-2" />
           <span className="logo text-darkGreen">DeFiWise</span>
