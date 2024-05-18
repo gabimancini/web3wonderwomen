@@ -37,7 +37,8 @@ const ModuleTask = (props: ModuleTaskProps) => {
           <div
             className={`flex justify-center mx-3 my-3 flex-col rounded-2xl items-center  text-darkGrey w-[150px] px-2 py-5 ${
               activity.id === 1 || isClicked ? props.bgColor : "bg-lightGrey"
-            }`}
+            }
+              ${activity.id === 5 ? "cursor-pointer" : ""}`}
             key={activity.id}
             onClick={() => getLastTask(activity.id, props.bgColor)}
           >

@@ -12,19 +12,15 @@ const Home: NextPage = () => {
   const { address: connectedAddress } = useAccount();
   return (
     <>
-      {!connectedAddress ? (
-        <>
-          {" "}
-          <Head>
-            <link rel="shortcut icon" href="../public/images/ico.ico" />
-          </Head>
-          <Hero />
-          <Advantages />
-          <Methodology />
-        </>
-      ) : (
-        <Learn />
-      )}
+      <>
+        {" "}
+        <Head>
+          <link rel="shortcut icon" href="../public/ico.ico" />
+        </Head>
+        <Hero />
+        <Advantages />
+        <Methodology />
+      </>
     </>
   );
 };

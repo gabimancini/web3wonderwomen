@@ -1,6 +1,7 @@
 "use client";
 
 // @refresh reset
+import Link from "next/link";
 import { Balance } from "../Balance";
 import { AddressInfoDropdown } from "./AddressInfoDropdown";
 import { AddressQRCodeModal } from "./AddressQRCodeModal";
@@ -8,16 +9,16 @@ import { WrongNetworkDropdown } from "./WrongNetworkDropdown";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { TbClick } from "react-icons/tb";
 import { Address } from "viem";
-import ModalRegistration from "~~/components/ModalRegistration";
-//import { useNetworkColor } from "~~/hooks/scaffold-eth";
+import { useNetworkColor } from "~~/hooks/scaffold-eth";
 import { useTargetNetwork } from "~~/hooks/scaffold-eth/useTargetNetwork";
 import { getBlockExplorerAddressLink } from "~~/utils/scaffold-eth";
 
 /**
  * Custom Wagmi Connect Button (watch balance + custom design)
  */
+
 export const RainbowKitCustomConnectButton = () => {
-  //const networkColor = useNetworkColor();
+  const networkColor = useNetworkColor();
   const { targetNetwork } = useTargetNetwork();
 
   return (
@@ -34,9 +35,8 @@ export const RainbowKitCustomConnectButton = () => {
               if (!connected) {
                 return (
                   <>
-                    <ModalRegistration />
                     <button
-                      className="btn border-0 text-white bg-gradient-to-b from-darkOrange to-lightOrange px-4 md:px-10 ml-4 md:ml-10 !min-h-10 !h-10"
+                      className="btn border-0 text-white bg-gradient-to-b from-darkOrange to-lightOrange px-10 ml-10 !min-h-10 !h-10"
                       onClick={openConnectModal}
                       type="button"
                     >
@@ -52,9 +52,18 @@ export const RainbowKitCustomConnectButton = () => {
               }
               return (
                 <>
+                  <Link
+                    href="/learn"
+                    passHref
+                    className="text-ocre font-bold text-base border-r-[1px] border-ocre pr-2"
+                  >
+                    Mi curso{" "}
+                  </Link>
                   <div className="flex flex-col items-center mr-1">
                     <Balance address={account.address as Address} className="min-h-0 h-auto" />
-                    <span className="text-xs text-darkOrange">{chain.name}</span>
+                    <span className="text-xs" style={{ color: networkColor }}>
+                      {chain.name}
+                    </span>
                   </div>
                   <AddressInfoDropdown
                     address={account.address as Address}

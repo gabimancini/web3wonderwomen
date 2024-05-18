@@ -3,32 +3,10 @@
 
 import React, { useCallback, useRef, useState } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { redirect, usePathname } from "next/navigation";
 import { Bars3Icon } from "@heroicons/react/24/outline";
 import { FaucetButton, RainbowKitCustomConnectButton } from "~~/components/scaffold-eth";
 import { useOutsideClick } from "~~/hooks/scaffold-eth";
-
-/* eslint-disable @next/next/no-img-element */
-
-/* eslint-disable @next/next/no-img-element */
-
-/* eslint-disable @next/next/no-img-element */
-
-/* eslint-disable @next/next/no-img-element */
-
-/* eslint-disable @next/next/no-img-element */
-
-/* eslint-disable @next/next/no-img-element */
-
-/* eslint-disable @next/next/no-img-element */
-
-/* eslint-disable @next/next/no-img-element */
-
-/* eslint-disable @next/next/no-img-element */
-
-/* eslint-disable @next/next/no-img-element */
-
-/* eslint-disable @next/next/no-img-element */
 
 /* eslint-disable @next/next/no-img-element */
 
@@ -83,7 +61,6 @@ export const Header = () => {
     burgerMenuRef,
     useCallback(() => setIsDrawerOpen(false), []),
   );
-
   return (
     <header>
       <div className="sticky lg:static top-0 bg-white min-h-0 -0 z-20  px-0 sm:px-2">
@@ -111,7 +88,7 @@ export const Header = () => {
                 </ul>
               )}
             </div>
-            <Link href="/" passHref className=" flex items-center gap-2 ml-4 mr-6 shrink-0">
+            <Link href="/" className=" flex items-center gap-2 ml-4 mr-6 shrink-0">
               <div className="flex  items-center relative  h-10">
                 <img alt="SE2 logo" className="cursor-pointer mr-2" src="/logo.svg" />
                 <span className="hidden md:block logo text-darkGreen">DeFiWise</span>
@@ -123,7 +100,7 @@ export const Header = () => {
             <ul className="hidden lg:flex lg:flex-nowrap menu menu-horizontal text-base px-1 gap-2">
               <HeaderMenuLinks />
             </ul>
-            <div className="navbar-end flex items-center">
+            <div className="flex items-center">
               <RainbowKitCustomConnectButton />
               <FaucetButton />
             </div>
