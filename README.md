@@ -20,8 +20,10 @@ DeFiWise es una plataforma de aprendizaje en línea que utiliza tecnología bloc
 
 - **Contrato DNSRegistrar ENS**: Este contrato actúa como un intermediario entre los nombres de dominio de Internet y los nombres de Ethereum en el sistema ENS (Ethereum Name Service). Permite reclamar nombres de dominio en Ethereum, verificando la propiedad del nombre de dominio en Internet mediante pruebas especiales.
 
-- **Unlock-protocol**: Estamos orgullosas de presentar nuestro MVP en la [Hackathon Latina Blockchain](https://womenbizweb3.notion.site/Latina-Blockchain-Hackathon-867d722240c34f8383fd4ec9e1beca61) y nos encantaría que nos acompañaras en este emocionante evento. Únete a nosotras por medio de [unlock-protocol](https://app.unlock-protocol.com/event/de-fi-wise) y descubre cómo estamos revolucionando la educación financiera.
+- **Unlock-protocol**: Estamos orgullosas de presentar nuestro MVP en la [Hackathon Latina Blockchain](https://womenbizweb3.notion.site/Latina-Blockchain-Hackathon-867d722240c34f8383fd4ec9e1beca61) y nos encantaría que nos acompañaras en este emocionante evento a través de [unlock-protocol](https://app.unlock-protocol.com/event/de-fi-wise). Utilizaremos Unlock Protocol para ofrecer acceso a contenido premium en nuestra plataforma DeFiWise permitiendo a las personas usuarias desbloquear cursos y recursos exclusivos haciendo la educación financiera más accesible y atractiva.
 
+
+- Unlock-protocol: Estamos orgullosas de presentar nuestro MVP en la Hackathon Latina Blockchain y nos encantaría que nos acompañaras en este emocionante evento. Únete a nosotras a través de Unlock Protocol y descubre cómo estamos revolucionando la educación financiera.
 # Instalación
 
 ### Configurar el ambiente de manera local
