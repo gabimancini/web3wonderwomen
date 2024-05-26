@@ -2,9 +2,9 @@
 
 import Head from "next/head";
 import type { NextPage } from "next";
-import { Advantages } from "~~/components/Advantages";
-import { Hero } from "~~/components/Hero";
-import { Methodology } from "~~/components/Methodology";
+import { Advantages } from "~~/app/home/Advantages";
+import { Hero } from "~~/app/home/Hero";
+import { Methodology } from "~~/app/home/Methodology";
 
 const Home: NextPage = () => {
   return (

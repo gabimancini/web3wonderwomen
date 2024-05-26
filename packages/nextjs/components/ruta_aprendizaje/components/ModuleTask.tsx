@@ -3,8 +3,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import petImg from "../../../public/pet.png";
-import { ModalCertificate } from "~~/components/ModalCertificate";
-import { ModalNFT } from "~~/components/ModalNFT";
+import { ModalCertificate } from "~~/components/modals/ModalCertificate";
+import { ModalNFT } from "~~/components/modals/ModalNFT";
 import { activityData } from "~~/data/activityData";
 
 interface ModuleTaskProps {

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import callToAction from "../public/call_to_action.svg";
+import callToAction from "../../public/call_to_action.svg";
 
 export const Methodology = () => {
   return (

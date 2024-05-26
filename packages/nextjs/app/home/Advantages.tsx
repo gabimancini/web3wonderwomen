@@ -1,6 +1,6 @@
 import Image from "next/image";
-import certificate from "../public/certificate.svg";
-import nftAwards from "../public/nftsAwards.svg";
+import certificate from "../../public/certificate.svg";
+import nftAwards from "../../public/nftsAwards.svg";
 
 export const Advantages = () => {
   return (

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import certificate from "../public/certificate.svg";
+import certificate from "../../public/certificate.svg";
 import { BsArrowUpRightSquare, BsFillTrophyFill, BsJournalCheck } from "react-icons/bs";
 
 export const ModalCertificate = ({ setCertModal }: any) => {

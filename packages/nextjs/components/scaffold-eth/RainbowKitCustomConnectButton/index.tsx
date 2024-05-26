@@ -53,7 +53,7 @@ export const RainbowKitCustomConnectButton = () => {
               return (
                 <>
                   <Link
-                    href="/learn"
+                    href="/dashboard"
                     passHref
                     className="text-ocre font-bold text-base border-r-[1px] border-ocre pr-2"
                   >

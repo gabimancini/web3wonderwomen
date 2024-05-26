@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import DefIWiseNFT from "../public/DeFiWiseNFT.png";
+import DefIWiseNFT from "../../public/DeFiWiseNFT.png";
 import { BsArrowUpRightSquare, BsAwardFill, BsStars } from "react-icons/bs";
 
 export const ModalNFT = ({ setModal }: any) => {

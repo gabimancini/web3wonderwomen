@@ -1,8 +1,8 @@
 import AsideMenu from "./asideMenu/AsideMenu";
-import HappyPath from "./happyPath/HappyPath";
 import { Compite } from "./progress/Compite";
 import Progress from "./progress/Progress";
 import { NextPage } from "next";
+import HappyPath from "~~/components/ruta_aprendizaje/HappyPath";
 
 const Learn: NextPage = () => {
   return (

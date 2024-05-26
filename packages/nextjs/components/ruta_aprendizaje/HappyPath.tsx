@@ -1,5 +1,5 @@
-import { Module1, Module2 } from "./Module";
-import { ModuleCallToAction } from "./ModuleCallToACtion";
+import { Module1, Module2 } from "./components/Module";
+import { ModuleCallToAction } from "./components/ModuleCallToACtion";
 
 const HappyPath = () => {
   return (
