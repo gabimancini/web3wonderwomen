@@ -1,19 +1,22 @@
-import AsideMenu from "./asideMenu/AsideMenu";
-import { Compite } from "./progress/Compite";
-import Progress from "./progress/Progress";
-import { NextPage } from "next";
-import HappyPath from "~~/components/ruta_aprendizaje/HappyPath";
+import { Module1, Module2 } from "./ruta_aprendizaje/components/Module";
+import { ModuleCallToAction } from "./ruta_aprendizaje/components/ModuleCallToACtion";
+import DashboardLayout from "~~/components/DashboardLayout";
 
-const Learn: NextPage = () => {
+const HappyPath = () => {
   return (
-    <div className="lg:flex p-6 max-w-[1550px] gap-10 mx-auto">
-      <AsideMenu />
-      <HappyPath />
-      <aside className="lg:max-w-[380px] ">
-        <Progress />
-        <Compite />
-      </aside>
-    </div>
+    <DashboardLayout>
+      <section>
+        <h2 className="text-active text-[23px] mb-6">Introducción a DeFi</h2>
+        <Module1 />
+        <Module2 />
+        <ModuleCallToAction />
+      </section>
+    </DashboardLayout>
   );
 };
-export default Learn;
+
+HappyPath.getLayout = (page: any) => {
+  page;
+};
+
+export default HappyPath;

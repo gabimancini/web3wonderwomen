@@ -109,6 +109,7 @@ module.exports = {
         h1: "40px",
         h2: "50px",
         h3: "30px",
+        title: "23px",
         h4: "20px",
         p: "20px",
         subP: "15px",
