@@ -1,6 +1,6 @@
 import Airdrop from "./airdrop";
 import Certificado from "./certificado";
-import MemberShip from "./memberdhip";
+import MemberShip from "./membership";
 import Nft from "./nft";
 import DashboardLayout from "~~/components/DashboardLayout";
 
