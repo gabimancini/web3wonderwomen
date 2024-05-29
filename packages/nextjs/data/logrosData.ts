@@ -3,12 +3,12 @@ import defiParty from "../public/defiParty.svg";
 
 export const logrosData = [
   {
-    text: "Defi Paty",
+    text: "Defi Party 🎉",
     img: defiParty,
     href: "",
   },
   {
-    text: "Defi Invest",
+    text: "Defi Invest...",
     img: defiInvest,
     href: "",
   },
