@@ -5,9 +5,9 @@ import { BsBookmarkStar } from "react-icons/bs";
 import { BsCalendarWeek } from "react-icons/bs";
 import { logrosData } from "~~/data/logrosData";
 
-export default function Airdrop() {
-  const UnlockEvent = "https://app.unlock-protocol.com/checkout?id=267bcee1-b90f-4159-8b6e-666623ed5eef";
+export const UnlockEvent = "https://app.unlock-protocol.com/checkout?id=267bcee1-b90f-4159-8b6e-666623ed5eef";
 
+export default function Airdrop() {
   return (
     <div className="border-[1px] border-lightGrey rounded-2xl  mb-10 p-6">
       <LogrosTitle icon={<BsBookmarkStar size={40} fill="darkOrange" />} title="Airdrops adquiridos" />

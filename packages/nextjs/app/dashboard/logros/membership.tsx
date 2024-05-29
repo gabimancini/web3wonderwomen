@@ -21,7 +21,7 @@ export default function MemberShip() {
         <Image src={membership} alt="Membership" width={100} />
         <div className="pl-6">
           <h3 className="text-subP">📝 Acerca del Curso</h3>
-          <p>
+          <p className="mt-2 mb-0">
             Forma parte de un seminario dedicado a las mejores prácticas y estrategias para asegurar los activos y
             plataformas en DeFi 👩‍💻
           </p>
@@ -30,7 +30,7 @@ export default function MemberShip() {
       <div className="flex pt-6  gap-4">
         <div className="flex pr-6">
           <span className="self-start border-2 border-lightGrey rounded-md p-2">
-            <BsCalendar size={20}/>
+            <BsCalendar size={20} />
           </span>
           <div className="text-grey pl-4">
             <h3 className="subP text-semibold">Fecha</h3>
@@ -38,13 +38,13 @@ export default function MemberShip() {
             <p className="subP text-regular m-0">7:00 - 10:00 pm GTM-5</p>
           </div>
         </div>
-        <div>
-        <span className="self-start border-2 border-lightGrey rounded-md p-2">
-          <BsCameraVideo size={20}/>
+        <div className="flex pr-6">
+          <span className="self-start border-2 border-lightGrey rounded-md p-2">
+            <BsCameraVideo size={20} />
           </span>
-          <div>
-          <h3 className="subP text-semibold">Ubicación</h3>
-          <p className="subP text-regular m-0">Google Meet</p>
+          <div className="text-grey pl-4">
+            <h3 className="subP text-semibold">Ubicación</h3>
+            <p className="subP text-regular m-0">Google Meet</p>
           </div>
         </div>
       </div>
