@@ -23,22 +23,23 @@ DeFiWise es una plataforma educativa en línea que utiliza tecnología blockchai
 
 - **Unlock-protocol**: Unlock Protocol nos permite ofrecer acceso a este contenido premium de manera sencilla y segura.
 
-- Acceso al Evento
-    - [Enlace de Evento](https://app.unlock-protocol.com/checkout?id=267bcee1-b90f-4159-8b6e-666623ed5eef)
-    - [Contrato en Sepolia](https://sepolia.etherscan.io/address/0x3ca1f4dea026efeadb6d0f7e5502cac4c83d63a4)
-    - Contrato: 0x3ca1f4DeA026eFEadb6d0F7E5502CaC4c83D63A4
+    - Acceso al Evento
+        - [Enlace de Evento](https://app.unlock-protocol.com/checkout?id=267bcee1-b90f-4159-8b6e-666623ed5eef)
+        - [Contrato en Sepolia](https://sepolia.etherscan.io/address/0x3ca1f4dea026efeadb6d0f7e5502cac4c83d63a4)
+        - Contrato: 0x3ca1f4DeA026eFEadb6d0F7E5502CaC4c83D63A4
 
-- Membresía Premium
-    - [Enlace a Membresía](https://app.unlock-protocol.com/checkout?id=356e8baf-9a3a-4fe6-959e-41bb130975b6)
-    - [Transacción en Sepolia](https://sepolia.etherscan.io/tx/0x095d139c34a195f4f9502e3f300081a0f0f25cf91aa8f35a434b4d86eb6a45b1)
-    - Contrato: 0x42349bd821Be4979f43D337a4A5E003C7641CE18
+    - Membresía Premium
+        - [Enlace a Membresía](https://app.unlock-protocol.com/checkout?id=356e8baf-9a3a-4fe6-959e-41bb130975b6)
+        - [Transacción en Sepolia](https://sepolia.etherscan.io/tx/0x095d139c34a195f4f9502e3f300081a0f0f25cf91aa8f35a434b4d86eb6a45b1)
+        - Contrato: 0x42349bd821Be4979f43D337a4A5E003C7641CE18
 
-La membresía es por 3 meses y permite el acceso a todos los beneficios mencionados.
+        La membresía es por 3 meses y permite el acceso a todos los beneficios mencionados.
 
+La versión 1.1 de DeFiWise ya incluye todas estas funcionalidades.
 
 ## Contribuit
 
-Contribuciones y feedback siempre son bienvenidos. Puedas chequear nuestra guía en [contributing guidelines](.github/CONTRIBUTING.md) on how to do so.
+Contribuciones y feedback siempre son bienvenidos. Puedas chequear nuestra guía en [contributing guidelines](.github/CONTRIBUTING.md)
 
 ## Instalación
 
@@ -72,6 +73,13 @@ Este proyecto adopta [Code of conduct](.github/CODE_OF_CONDUCT.md).
 ## 🔑 Licence
 
 - Este proyecto utiliza [MIT license](LICENSE).
+
+## Próxima Actualización:
+La versión 1.2 de DeFiWise incluirá un "Módulo Cero" para introducir a las personas usuarias a las finanzas centralizadas. 
+
+- Módulo Cero de Finanzas Centralizadas
+
+Agregar un módulo cero que explique las finanzas centralizadas  proporcionará una base sólida para aquellas personas usuarias que no tienen conocimientos previos sobre finanzas. Explicar conceptos básicos y servicios conocidos ayudará a las personas usuarios a contextualizar las finanzas descentralizadas, al entender cómo funcionan los servicios financieros tradicionales, las personas usuarias podrán apreciar mejor las innovaciones y beneficios de las finanzas descentralizadas. Servicios como Ualá, Lemon y Mercado Pago son buenos ejemplos de plataformas centralizadas donde una entidad controla los datos y transacciones, en contraste, las finanzas descentralizadas (DeFi) eliminan intermediarios gracias a la tecnología blockchain, ofreciendo mayor transparencia, seguridad y accesibilidad.
 
 ## Creadoras
 
