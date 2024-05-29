@@ -11,6 +11,10 @@ import { FaucetButton, RainbowKitCustomConnectButton } from "~~/components/scaff
 import { useOutsideClick } from "~~/hooks/scaffold-eth";
 
 /* eslint-disable prettier/prettier */
+
+/* eslint-disable @next/next/no-img-element */
+
+/* eslint-disable prettier/prettier */
 /* eslint-disable @next/next/no-img-element */
 
 type HeaderMenuLink = {

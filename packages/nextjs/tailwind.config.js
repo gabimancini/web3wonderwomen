@@ -114,7 +114,7 @@ module.exports = {
         h4: "20px",
         p: "20px",
         subP: "15px",
-        btn:"12px",
+        btn: "12px",
         copyRight: "16px",
       },
     },
