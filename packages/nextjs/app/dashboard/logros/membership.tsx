@@ -8,10 +8,10 @@ export default function MemberShip() {
   const UnlockMembership = "https://app.unlock-protocol.com/checkout?id=356e8baf-9a3a-4fe6-959e-41bb130975b6";
   return (
     <div className="border-[1px] border-lightGrey rounded-2xl mb-10 p-10">
-      <LogrosTitle title="Cursos rxclusivos para miembros" icon={<BsBookmarkStar size={40} fill="darkOrange" />} />
+      <LogrosTitle title="Cursos exclusivos para miembros" icon={<BsBookmarkStar size={40} fill="darkOrange" />} />
       <div className="flex justify-between items-center pt-6">
         <h4 className="text-h4">SecureChain DeFi Seminar 🔐</h4>
-        <Link href={UnlockMembership}>
+        <Link href={UnlockMembership} target="_blank">
           <button className="flex border-0 rounded-2xl text-white bg-gradient-to-b from-darkOrange to-lightOrange py-[8px] p-8 text-semibold text-subP">
             <span className="mr-2">Anotarme</span> <BsStars />
           </button>
