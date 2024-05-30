@@ -12,7 +12,7 @@ export default function MemberShip() {
       <div className="flex justify-between items-center pt-6">
         <h4 className="text-h4">SecureChain DeFi Seminar 🔐</h4>
         <Link href={UnlockMembership}>
-          <button className="flex border-0 rounded-2xl text-white bg-gradient-to-b from-darkOrange to-lightOrange py-[8px] px-8 py-6 text-semibold text-btn">
+          <button className="flex border-0 rounded-2xl text-white bg-gradient-to-b from-darkOrange to-lightOrange py-[8px] p-8 text-semibold text-subP">
             <span className="mr-2">Anotarme</span> <BsStars />
           </button>
         </Link>
