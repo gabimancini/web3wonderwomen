@@ -8,7 +8,7 @@ DeFiWise es una plataforma educativa en línea que utiliza tecnología blockchai
 
 - Versión básica gratuita: Acceso limitado a ciertos cursos y funcionalidades.
 
-## Contenido Exclusivo, susucripciones premium:
+## Contenido Exclusivo para suscripciones premium:
 
 - Desbloqueo de contenido completo, cursos avanzados y funcionalidades adicionales.
 - Seminarios web exclusivos
