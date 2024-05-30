@@ -69,7 +69,7 @@ Luego, ejecutar los siguientes comandos:
 ### Configurar el ambiente utilizando Docker
 
 ```bash
-- git clone https://github.com/tuusuario/DeFiWise.git
+- git clone https://github.com/gabimancini/DeFiWise.git
 - cd DeFiWise
 - docker-compose up
 ```
