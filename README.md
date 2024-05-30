@@ -7,10 +7,10 @@ DeFiWise es una plataforma educativa en línea que utiliza tecnología blockchai
 ## Modelo Freemium, en DeFiWise ofrecemos:
 
 - Versión básica gratuita: Acceso limitado a ciertos cursos y funcionalidades.
-- Suscripción Premium: Desbloqueo de contenido completo, cursos avanzados y funcionalidades adicionales.
 
-## Contenido Exclusivo, para suscriptores premium:
+## Contenido Exclusivo, susucripciones premium:
 
+- Desbloqueo de contenido completo, cursos avanzados y funcionalidades adicionales.
 - Seminarios web exclusivos
 - Sesiones en vivo con personas expertas
 - Material adicional exclusivo
@@ -21,7 +21,7 @@ DeFiWise es una plataforma educativa en línea que utiliza tecnología blockchai
 
 - **Contrato DNSRegistrar ENS**: Este contrato actúa como un intermediario entre los nombres de dominio de Internet y los nombres de Ethereum en el sistema ENS (Ethereum Name Service). Permite reclamar nombres de dominio en Ethereum, verificando la propiedad del nombre de dominio en Internet mediante pruebas especiales.
 
-- **Unlock-protocol**: Unlock Protocol nos permite ofrecer acceso a este contenido premium de manera sencilla y segura.
+- **Unlock-protocol**: Unlock Protocol nos permite ofrecer acceso al contenido premium de manera sencilla y segura.
 
     - Acceso al Evento
         - [Enlace de Evento](https://app.unlock-protocol.com/checkout?id=267bcee1-b90f-4159-8b6e-666623ed5eef)
@@ -42,9 +42,9 @@ La versión 1.2 de DeFiWise incluirá un "Módulo Cero" para introducir a las pe
 
 - Módulo Cero de Finanzas Centralizadas
 
-Agregar un módulo cero que explique las finanzas centralizadas  proporcionará una base sólida para aquellas personas usuarias que no tienen conocimientos previos sobre finanzas. Explicar conceptos básicos y servicios conocidos ayudará a las personas usuarios a contextualizar las finanzas descentralizadas, al entender cómo funcionan los servicios financieros tradicionales, las personas usuarias podrán apreciar mejor las innovaciones y beneficios de las finanzas descentralizadas. Servicios como Ualá y Mercado Pago son buenos ejemplos de plataformas centralizadas donde una entidad controla los datos y transacciones, en contraste, las finanzas descentralizadas (DeFi) eliminan intermediarios gracias a la tecnología blockchain, ofreciendo mayor transparencia, seguridad y accesibilidad.
+Agregar un módulo cero que explique las finanzas centralizadas  proporcionará una base sólida para aquellas personas usuarias que no tienen conocimientos previos sobre finanzas. Explicar conceptos básicos y servicios conocidos ayudará a contextualizar las finanzas descentralizadas, al entender cómo funcionan los servicios financieros tradicionales, las personas usuarias podrán apreciar mejor las innovaciones y beneficios de las finanzas descentralizadas. Servicios como Ualá y Mercado Pago son buenos ejemplos de plataformas centralizadas donde una entidad controla los datos y transacciones, en contraste, las finanzas descentralizadas (DeFi) eliminan intermediarios gracias a la tecnología blockchain, ofreciendo mayor transparencia, seguridad y accesibilidad.
 
-## Contribuit
+## Contribuir
 
 Contribuciones y feedback siempre son bienvenidos. Puedas chequear nuestra guía en [contributing guidelines](.github/CONTRIBUTING.md)
 
@@ -69,7 +69,7 @@ Luego, ejecutar los siguientes comandos:
 ### Configurar el ambiente utilizando Docker
 
 ```bash
-- git clone https://github.com/tuusuario/DeFiWise.git
+- git clone https://github.com/gabimancini/DeFiWise.git
 - cd DeFiWise
 - docker-compose up
 ```
