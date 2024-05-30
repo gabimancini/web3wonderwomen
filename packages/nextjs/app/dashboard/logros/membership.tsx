@@ -11,15 +11,15 @@ export default function MemberShip() {
       <LogrosTitle title="Cursos rxclusivos para miembros" icon={<BsBookmarkStar size={40} fill="darkOrange" />} />
       <div className="flex justify-between items-center pt-6">
         <h4 className="text-h4">SecureChain DeFi Seminar 🔐</h4>
-        <Link href={UnlockMembership} target="_blank">
-          <button className="flex border-0 rounded-2xl text-white bg-gradient-to-b from-darkOrange to-lightOrange py-[8px] px-8 text-semibold text-btn">
-            Anotarme <BsStars />
+        <Link href={UnlockMembership}>
+          <button className="flex border-0 rounded-2xl text-white bg-gradient-to-b from-darkOrange to-lightOrange py-[8px] px-8 py-6 text-semibold text-btn">
+            <span className="mr-2">Anotarme</span> <BsStars />
           </button>
         </Link>
       </div>
       <div className="flex justify-between pt-6">
         <Image src={membership} alt="Membership" width={100} />
-        <div className="pl-6">
+        <div className="pl-7">
           <h3 className="text-subP">📝 Acerca del Curso</h3>
           <p className="mt-2 mb-0">
             Forma parte de un seminario dedicado a las mejores prácticas y estrategias para asegurar los activos y
